@@ -1,0 +1,8 @@
+Tanque KEYWORD1
+
+info KEYWORD2
+avanza KEYWORD2
+retrocede KEYWORD2
+derecha KEYWORD2
+izquierda KEYWORD2
+detener KEYWORD2
