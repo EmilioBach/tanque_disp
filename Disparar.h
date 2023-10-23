@@ -11,6 +11,7 @@
 class Disparar
 {
     public:
+        void info(int _P, int _N, int _lapiz, int _n_lapiz, int _elastico, int _n_elastico);
         void torreta{};
         void in_torreta{};
         void disp_lapiz{};
