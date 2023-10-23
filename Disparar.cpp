@@ -9,3 +9,18 @@
 void Disparar::torreta(){
   
 }
+void Disparar::in_torreta(){
+  
+}
+void Disparar::disp_lapiz(){
+  
+}
+void Disparar::stop_pencil(){
+  
+}
+void Disparar::disp_elsatico(){
+  
+}
+void Disparar::stop_elsatico(){
+  
+}
