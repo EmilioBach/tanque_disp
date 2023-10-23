@@ -22,11 +22,13 @@ void Tanque::info(int _P1N, int _P1S, int _P2N, int _P2S) {
 	pinMode(P2N, OUTPUT);
 	pinMode(P2S, OUTPUT);
 
+	/*
 	Serial.println("--------------------------------------------------------------------------------------------------");
 	Serial.println("Los pines a utilizar son: ");
 	Serial.print("Motor 1 positivo: "); Serial.print(P1N); Serial.print("| "); Serial.print("Motor 1 negativo "); Serial.print(P1S);
 	Serial.print("Motor 2 positivo: "); Serial.print(P2N); Serial.print("| "); Serial.print("Motor 2 negativo "); Serial.print(P2S);
-	Serial.println("--------------------------------------------------------------------------------------------------");
+	Serial.println("--------------------------------------------------------------------------------------------------");*/
+	
 }
 
 /*void Tanque::avanza() {
