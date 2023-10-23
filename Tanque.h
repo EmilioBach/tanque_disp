@@ -23,8 +23,8 @@ private:  //atributos del tanque
 public:
 
 	void info(int _P1N, int _P1S, int _P2N, int _P2S);
-	void avanza();
-	void retrocede();
+	//void avanza();
+	//void retrocede();
 	void derecha();
 	void izquierda();
 	void detener();
