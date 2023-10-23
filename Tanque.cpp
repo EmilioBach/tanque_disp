@@ -29,7 +29,7 @@ void Tanque::info(int _P1N, int _P1S, int _P2N, int _P2S) {
 	Serial.println("--------------------------------------------------------------------------------------------------");
 }
 
-void Tanque::avanza() {
+/*void Tanque::avanza() {
 	digitalWrite(P1N, LOW);
 	digitalWrite(P1S, HIGH);
 	digitalWrite(P2N, LOW);
@@ -42,6 +42,7 @@ void Tanque::retrocede() {
 	digitalWrite(P2N, HIGH);
 	digitalWrite(P2S, LOW);
 }
+*/
 
 void Tanque::derecha() {
 	digitalWrite(P1N, LOW);
