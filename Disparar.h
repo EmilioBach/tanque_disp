@@ -11,9 +11,12 @@
 class Disparar
 {
     public:
-        void disp_torreta{};
+        void torreta{};
+        void in_torreta{};
         void disp_lapiz{};
+        void stop_pencil{};
         void disp_elsatico{};
+        void stop_elsatico{};
     private:
 
         int P;
