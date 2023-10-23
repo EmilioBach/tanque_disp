@@ -19,7 +19,15 @@ class Disparar
         void stop_elsatico{};
     private:
 
-        int P;
-        int N;
+        int P;//torreta
+        int N;//n_torreta
 
-}
+        int lapiz;
+        int n_lapiz;
+
+        int elastico;
+        int n_elastico;
+
+};
+
+#endif
