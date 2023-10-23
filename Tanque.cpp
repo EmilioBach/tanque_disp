@@ -45,17 +45,17 @@ void Tanque::retrocede() {
 */
 
 void Tanque::derecha() {
-	digitalWrite(P1N, LOW);
-	digitalWrite(P1S, HIGH);
-	digitalWrite(P2N, HIGH);
-	digitalWrite(P2S, LOW);
+	digitalWrite(P1N, HIGH);
+	digitalWrite(P1S, LOW);
+	//digitalWrite(P2N, HIGH);
+	//digitalWrite(P2S, LOW);
 }
 
 void Tanque::izquierda() {
-	digitalWrite(P1N, HIGH);
-	digitalWrite(P1S, LOW);
-	digitalWrite(P2N, LOW);
-	digitalWrite(P2S, HIGH);
+	//digitalWrite(P1N, HIGH);
+	//digitalWrite(P1S, LOW);
+	digitalWrite(P2N, HIGH);
+	digitalWrite(P2S, LOW);
 }
 
 void Tanque::detener() {
