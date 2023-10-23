@@ -6,3 +6,6 @@
 #include "Arduino.h"
 #include "Disparar.h"
 
+void Disparar::torreta(){
+  
+}
